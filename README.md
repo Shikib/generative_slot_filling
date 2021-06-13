@@ -8,6 +8,10 @@ In transfer learning, it is imperative to achieve strong alignment between a pre
 
 ## Instructions for Reproducing Results
 
+### Transformer Changes
+
+To add a copy-mechanism to GPT-2, we edited the implementation in Transformers (version 3.0.2). Copy the files in `transformer_changes/` into `/usr/local/lib/python3.6/dist-packages/transformers/` or the relevant directory.
+
 ### Training
 
 To train GenSF, use the following commands with the relevant data paths (all the pre-processed data is provided in this repository).
